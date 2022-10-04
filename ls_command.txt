@@ -1,0 +1,80 @@
+rajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ cat basic_linux_commands.txt 
+man
+
+pwd
+echo
+sudo
+clear
+cd
+ls
+cat
+less
+grep
+sort
+
+mv
+cp
+rm
+mkdir
+rmdir
+chmod
+
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ man ls
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ 
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ ls -A
+basic_linux_commands.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ cd prajwalubu/
+bash: cd: prajwalubu/: No such file or directory
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ cd /home/prajwalubu/
+prajwalubu@prajwalubu-VirtualBox:~$ ls
+Desktop  Documents  Downloads  file1.py  Music  newf.txt  Pictures  Public  Templates  Videos
+prajwalubu@prajwalubu-VirtualBox:~$ ls -A
+.android       .bashrc     .config    Downloads  .gradle  .mozilla  Pictures  .python_history            Templates                  .vboxclient-display-svga-x11.pid  Videos
+.bash_history  .buildozer  Desktop    file1.py   .kivy    Music     .profile  .ssh                       .thunderbird               .vboxclient-draganddrop.pid
+.bash_logout   .cache      Documents  .gnupg     .local   newf.txt  Public    .sudo_as_admin_successful  .vboxclient-clipboard.pid  .vboxclient-seamless.pid
+prajwalubu@prajwalubu-VirtualBox:~$ ls -A -l
+total 116
+drwxrwxr-x  4 prajwalubu prajwalubu 4096 Nov  5  2020 .android
+-rw-------  1 prajwalubu prajwalubu 3105 Oct  9  2021 .bash_history
+-rw-r--r--  1 prajwalubu prajwalubu  220 Nov  4  2020 .bash_logout
+-rw-r--r--  1 prajwalubu prajwalubu 3771 Nov  4  2020 .bashrc
+drwxrwxr-x  4 prajwalubu prajwalubu 4096 Nov  5  2020 .buildozer
+drwx------ 16 prajwalubu prajwalubu 4096 Oct  9  2021 .cache
+drwxr-xr-x 13 prajwalubu prajwalubu 4096 Nov  5  2020 .config
+drwxr-xr-x  3 prajwalubu prajwalubu 4096 Nov  5  2020 Desktop
+drwxr-xr-x  2 prajwalubu prajwalubu 4096 Nov  4  2020 Documents
+drwxr-xr-x  2 prajwalubu prajwalubu 4096 Oct  9  2021 Downloads
+-rw-rw-r--  1 prajwalubu prajwalubu   12 Nov  5  2020 file1.py
+drwx------  3 prajwalubu prajwalubu 4096 Nov  4  2020 .gnupg
+drwxrwxr-x  7 prajwalubu prajwalubu 4096 Nov  5  2020 .gradle
+drwxrwxr-x  5 prajwalubu prajwalubu 4096 Nov  5  2020 .kivy
+drwxr-xr-x  5 prajwalubu prajwalubu 4096 Nov  4  2020 .local
+drwx------  5 prajwalubu prajwalubu 4096 Nov  4  2020 .mozilla
+drwxr-xr-x  2 prajwalubu prajwalubu 4096 Nov  4  2020 Music
+-rw-rw-r--  1 prajwalubu prajwalubu    0 Oct  4 23:47 newf.txt
+drwxr-xr-x  2 prajwalubu prajwalubu 4096 Nov  4  2020 Pictures
+-rw-r--r--  1 prajwalubu prajwalubu  807 Nov  4  2020 .profile
+drwxr-xr-x  2 prajwalubu prajwalubu 4096 Nov  4  2020 Public
+-rw-------  1 prajwalubu prajwalubu   52 Nov  4  2020 .python_history
+drwx------  2 prajwalubu prajwalubu 4096 Nov  4  2020 .ssh
+-rw-r--r--  1 prajwalubu prajwalubu    0 Nov  4  2020 .sudo_as_admin_successful
+drwxr-xr-x  2 prajwalubu prajwalubu 4096 Nov  4  2020 Templates
+drwx------  6 prajwalubu prajwalubu 4096 Oct  9  2021 .thunderbird
+-rw-r-----  1 prajwalubu prajwalubu    5 Oct  4 23:38 .vboxclient-clipboard.pid
+-rw-r-----  1 prajwalubu prajwalubu    5 Oct  4 23:38 .vboxclient-display-svga-x11.pid
+-rw-r-----  1 prajwalubu prajwalubu    5 Oct  4 23:38 .vboxclient-draganddrop.pid
+-rw-r-----  1 prajwalubu prajwalubu    5 Oct  4 23:38 .vboxclient-seamless.pid
+drwxr-xr-x  2 prajwalubu prajwalubu 4096 Nov  4  2020 Videos
+prajwalubu@prajwalubu-VirtualBox:~$ ls -l
+total 36
+drwxr-xr-x 3 prajwalubu prajwalubu 4096 Nov  5  2020 Desktop
+drwxr-xr-x 2 prajwalubu prajwalubu 4096 Nov  4  2020 Documents
+drwxr-xr-x 2 prajwalubu prajwalubu 4096 Oct  9  2021 Downloads
+-rw-rw-r-- 1 prajwalubu prajwalubu   12 Nov  5  2020 file1.py
+drwxr-xr-x 2 prajwalubu prajwalubu 4096 Nov  4  2020 Music
+-rw-rw-r-- 1 prajwalubu prajwalubu    0 Oct  4 23:47 newf.txt
+drwxr-xr-x 2 prajwalubu prajwalubu 4096 Nov  4  2020 Pictures
+drwxr-xr-x 2 prajwalubu prajwalubu 4096 Nov  4  2020 Public
+drwxr-xr-x 2 prajwalubu prajwalubu 4096 Nov  4  2020 Templates
+drwxr-xr-x 2 prajwalubu prajwalubu 4096 Nov  4  2020 Videos
+prajwalubu@prajwalubu-VirtualBox:~$ 

@@ -1,0 +1,152 @@
+rajwalubu@prajwalubu-VirtualBox~Desktopfile-prajwallinux_tut$ cat basic_linux_commands.txt 
+man
+
+pwd
+echo
+sudo
+clear
+cd
+ls
+cat
+less
+grep
+sort
+
+mv
+cp
+rm
+mkdir
+rmdir
+chmod
+
+prajwalubu@prajwalubu-VirtualBox~Desktopfile-prajwallinux_tut$ man ls
+prajwalubu@prajwalubu-VirtualBox~Desktopfile-prajwallinux_tut$ 
+prajwalubu@prajwalubu-VirtualBox~Desktopfile-prajwallinux_tut$ ls -A
+basic_linux_commands.txt
+prajwalubu@prajwalubu-VirtualBox~Desktopfile-prajwallinux_tut$ cd prajwalubu
+bash cd prajwalubu No such file or directory
+prajwalubu@prajwalubu-VirtualBox~Desktopfile-prajwallinux_tut$ cd homeprajwalubu
+prajwalubu@prajwalubu-VirtualBox~$ ls
+Desktop  Documents  Downloads  file1.py  Music  newf.txt  Pictures  Public  Templates  Videos
+prajwalubu@prajwalubu-VirtualBox~$ ls -A
+.android       .bashrc     .config    Downloads  .gradle  .mozilla  Pictures  .python_history            Templates                  .vboxclient-display-svga-x11.pid  Videos
+.bash_history  .buildozer  Desktop    file1.py   .kivy    Music     .profile  .ssh                       .thunderbird               .vboxclient-draganddrop.pid
+.bash_logout   .cache      Documents  .gnupg     .local   newf.txt  Public    .sudo_as_admin_successful  .vboxclient-clipboard.pid  .vboxclient-seamless.pid
+prajwalubu@prajwalubu-VirtualBox~$ ls -A -l
+total 116
+rajwalubu@prajwalubu-VirtualBox~Desktopfile-prajwallinux_tut$ cat basic_linux_commands.txt 
+man
+
+pwd
+echo
+sudo
+clear
+cd
+ls
+cat
+less
+grep
+sort
+
+mv
+cp
+rm
+mkdir
+rmdir
+chmod
+
+prajwalubu@prajwalubu-VirtualBox~Desktopfile-prajwallinux_tut$ man ls
+prajwalubu@prajwalubu-VirtualBox~Desktopfile-prajwallinux_tut$ 
+prajwalubu@prajwalubu-VirtualBox~Desktopfile-prajwallinux_tut$ ls -A
+basic_linux_commands.txt
+prajwalubu@prajwalubu-VirtualBox~Desktopfile-prajwallinux_tut$ cd prajwalubu
+bash cd prajwalubu No such file or directory
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ cat basic_linux_commands.txt 
+man
+
+pwd
+echo
+sudo
+clear
+cd
+ls
+cat
+less
+grep
+sort
+
+mv
+cp
+rm
+mkdir
+rmdir
+chmod
+
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ cat -b basic_linux_commands.txt 
+     1	man
+
+     2	pwd
+     3	echo
+     4	sudo
+     5	clear
+     6	cd
+     7	ls
+     8	cat
+     9	less
+    10	grep
+    11	sort
+
+    12	mv
+    13	cp
+    14	rm
+    15	mkdir
+    16	rmdir
+    17	chmod
+
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ cat -n basic_linux_commands.txt 
+     1	man
+     2	
+     3	pwd
+     4	echo
+     5	sudo
+     6	clear
+     7	cd
+     8	ls
+     9	cat
+    10	less
+    11	grep
+    12	sort
+    13	
+    14	mv
+    15	cp
+    16	rm
+    17	mkdir
+    18	rmdir
+    19	chmod
+    20	
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ cat -s basic_linux_commands.txt 
+man
+
+pwd
+echo
+sudo
+clear
+cd
+ls
+cat
+less
+grep
+sort
+
+mv
+cp
+rm
+mkdir
+rmdir
+chmod
+
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ ^C
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ ^C
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ 
+
+

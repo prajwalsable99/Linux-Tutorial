@@ -1,0 +1,39 @@
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ ls
+basic_linux_commands.txt  sample.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ mkdir newfol
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ ls
+basic_linux_commands.txt  newfol  sample.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ cp sample.txt  /home/prajwalubu/D
+Desktop/   Documents/ Downloads/ 
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ cp sample.txt  /home/prajwalubu/Desktop/file-prajwal/linux_tut/newfol/
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ ls
+basic_linux_commands.txt  newfol  sample.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ cd newfol/
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut/newfol$ ls
+sample.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut/newfol$ cd..
+cd..: command not found
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut/newfol$ cd ..
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ ls
+basic_linux_commands.txt  newfol  sample.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ cp basic_linux_commands.txt  newfol/
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ cd newfol/
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut/newfol$ ls
+basic_linux_commands.txt  sample.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut/newfol$ ls
+basic_linux_commands.txt  sample.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut/newfol$ rm sample.txt 
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut/newfol$ ls
+basic_linux_commands.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut/newfol$ cd ..
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ ls
+basic_linux_commands.txt  newfol  sample.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ cp -v sample.txt newfol/
+'sample.txt' -> 'newfol/sample.txt'
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ cd n
+bash: cd: n: No such file or directory
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ cd newfol/
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut/newfol$ ls
+basic_linux_commands.txt  sample.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut/newfol$ ^C
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut/newfol$ 

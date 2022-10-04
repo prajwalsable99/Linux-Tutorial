@@ -1,0 +1,20 @@
+Desktop  Documents  Downloads  file1.py  Music  newf.txt  Pictures  Public  Templates  Videos
+prajwalubu@prajwalubu-VirtualBox:~$ cd Desktop/
+prajwalubu@prajwalubu-VirtualBox:~/Desktop$ ls
+file-prajwal
+prajwalubu@prajwalubu-VirtualBox:~/Desktop$ cd file-prajwal/
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ cd ..
+prajwalubu@prajwalubu-VirtualBox:~/Desktop$ cd file-prajwal/
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ cd ../../
+prajwalubu@prajwalubu-VirtualBox:~$ pwd
+/home/prajwalubu
+prajwalubu@prajwalubu-VirtualBox:~$ cd D
+Desktop/   Documents/ Downloads/ 
+prajwalubu@prajwalubu-VirtualBox:~$ cd Dcd Desktop/file-prajwal/
+bash: cd: too many arguments
+prajwalubu@prajwalubu-VirtualBox:~$ ls
+Desktop  Documents  Downloads  file1.py  Music  newf.txt  Pictures  Public  Templates  Videos
+prajwalubu@prajwalubu-VirtualBox:~$ cd Desktop/file-prajwal/
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ ls
+cns  jk  linux_tut  main.py  ss.cpp
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ ^C

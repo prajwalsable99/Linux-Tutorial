@@ -1,0 +1,44 @@
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ ls
+basic_linux_commands.txt  newfol  sample.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ cd newfol/
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut/newfol$ ls
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut/newfol$ cd ..
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ nano xyz.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ cat xyz.txt 
+demo
+to
+move file
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ mv xyz.txt newfol/
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ cd newfol/
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut/newfol$ ls
+xyz.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut/newfol$ cd ..
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ ls
+basic_linux_commands.txt  newfol  sample.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ cd newfol/
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut/newfol$ mv xyz.txt ../
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut/newfol$ ls
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut/newfol$ cd ..
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ ls
+basic_linux_commands.txt  newfol  sample.txt  xyz.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ cd ..
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ ls
+cns  jk  linux_tut  main.py  ss.cpp
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ pwd
+/home/prajwalubu/Desktop/file-prajwal
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ cd linux_tut/
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ ls
+basic_linux_commands.txt  newfol  sample.txt  xyz.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ mv xyz.txt newfol/
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ cd newfol/
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut/newfol$ ls
+xyz.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut/newfol$ mv xyz.txt ../../
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut/newfol$ ls
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut/newfol$ cd ..
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ ls
+basic_linux_commands.txt  newfol  sample.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ cd ..
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ ls
+cns  jk  linux_tut  main.py  ss.cpp  xyz.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ 

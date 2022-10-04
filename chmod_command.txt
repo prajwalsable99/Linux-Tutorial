@@ -1,0 +1,36 @@
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ chmod +x fetch.sh 
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ ./fetch.sh 
+[ Decoding Content ... ]
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ nano changeper.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ cat changeper.txt 
+chmod dig1 dig2 dig3 filename.extension
+
+dig1=user
+dig2=group
+dig3=others
+
+
+0 = 0 =nothing
+1=1=execute(x)
+2=2= write(w)
+3=2+1= write +exec (w+x)
+4=4=read(r)
+5=4+1 = (r+x)
+6=4+2= r+w
+7=4+2+1= r+w+e
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ chmod 777 fetch.sh 
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ ls -l
+total 20
+-rw-rw-r-- 1 prajwalubu prajwalubu   79 Oct  4 23:49 basic_linux_commands.txt
+-rw-rw-r-- 1 prajwalubu prajwalubu  197 Oct  5 00:52 changeper.txt
+-rwxrwxrwx 1 prajwalubu prajwalubu   43 Oct  5 00:44 fetch.sh
+drwxrwxr-x 2 prajwalubu prajwalubu 4096 Oct  5 00:32 newfol
+-rw-rw-r-- 1 prajwalubu prajwalubu   96 Oct  5 00:17 sample.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ cat fetch.sh 
+#!/bin/sh
+
+echo "[ Decoding Content ... ]"
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ 
+
+
+

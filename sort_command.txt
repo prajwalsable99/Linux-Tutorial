@@ -1,0 +1,48 @@
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ cat sample.txt 
+hello world
+world
+hello
+prajwal
+atharva
+vaishnavi
+sakshi
+Prajwal
+PRAJWAL
+SAKSHI
+SAKshi
+ATHARVA
+
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ sort sample.txt 
+
+atharva
+ATHARVA
+hello
+hello world
+prajwal
+Prajwal
+PRAJWAL
+sakshi
+SAKshi
+SAKSHI
+vaishnavi
+world
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ sort -r sample.txt 
+world
+vaishnavi
+SAKSHI
+SAKshi
+sakshi
+PRAJWAL
+Prajwal
+prajwal
+hello world
+hello
+ATHARVA
+atharva
+
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ sort -n sample.txt 
+
+atharva
+ATHARVA
+hello
+hello world

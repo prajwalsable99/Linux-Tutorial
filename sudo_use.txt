@@ -1,0 +1,28 @@
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ ls
+basic_linux_commands.txt  changeper.txt  fetch.sh  newfol  sample.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ nano sudO_comm.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ sudo apt-get install php-bcmath
+[sudo] password for prajwalubu: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  php-common php7.4-bcmath php7.4-common
+The following NEW packages will be installed:
+  php-bcmath php-common php7.4-bcmath php7.4-common
+0 upgraded, 4 newly installed, 0 to remove and 239 not upgraded.
+Need to get 1,008 kB of archives.
+After this operation, 7,737 kB of additional disk space will be used.
+Do you want to continue? [Y/n] n
+Abort.
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ cat s
+sample.txt     sudO_comm.txt  
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ cat sudO_comm.txt 
+sudo apt-get install package
+
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ 
+
+
+
+
+

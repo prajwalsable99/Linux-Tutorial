@@ -1,0 +1,11 @@
+man== > give command info
+
+echo==> print
+clear==>clear cli
+pwd==> prsent working dir
+mkdir => make folder
+touch =>create empty file
+cat   => print file
+rm 	=>remove file
+rmdir =>remove dir
+nao  =>file ediot(my fav)

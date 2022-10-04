@@ -1,0 +1,34 @@
+asic_linux_commands.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ touch sample.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ nano sample.txt 
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ cat sample.txt 
+hello world
+world
+hello
+prajwal
+atharva
+vaishnavi
+sakshi
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ grep hello basic_linux_commands.txt 
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ cat sample.txt 
+hello world
+world
+hello
+prajwal
+atharva
+vaishnavi
+sakshi
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ grep hello sample.txt 
+hello world
+hello
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ grep sakshi sample.txt 
+sakshi
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ nano sample.txt 
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ grep sakshi sample.txt 
+sakshi
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ grep -i  sakshi sample.txt 
+sakshi
+SAKSHI
+SAKshi
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal/linux_tut$ 
+
