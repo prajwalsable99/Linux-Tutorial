@@ -1,0 +1,43 @@
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ nano abc.java
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ javac abc.java 
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ java abc 
+Helo Wolrd !
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ cat abc.java 
+
+class abc{
+
+ public static void main(String [] args){
+
+	System.out.println("Helo Wolrd !");
+
+
+}
+}
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ 
+
+
+
+
+
+abc.class  abc.java  cns  f2.txt  jk  linux_tut  main.py  mycode.cpp  myop  runpy.sh  samp2.py  samp.py  ss.cpp
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ cat samp.py 
+
+
+
+print("this is sample file")
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ cat runpy.sh 
+
+#!/bin/sh
+
+python3 samp.py
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ ./runpy.sh
+this is sample file
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ ^C
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ 
+
+
+
+
+
+
+

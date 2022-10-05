@@ -1,0 +1,19 @@
+
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ nano abc.java
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ javac abc.java 
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ java abc 
+Helo Wolrd !
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ cat abc.java 
+
+class abc{
+
+ public static void main(String [] args){
+
+	System.out.println("Helo Wolrd !");
+
+
+}
+}
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ 
+
+

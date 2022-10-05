@@ -1,0 +1,36 @@
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ nano abc.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ ls
+abc.txt  cns  jk  linux_tut  main.py  ss.cpp  xyz.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ cat xyz.txt 
+demo
+to
+move file
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ cat abc.txt 
+hi hello world
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ mv abc.txt xyz.txt 
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ cat abc.txt 
+cat: abc.txt: No such file or directory
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ cat xyz.txt 
+hi hello world
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ ls
+cns  jk  linux_tut  main.py  ss.cpp  xyz.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ rm xyz.txt 
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ ls
+cns  jk  linux_tut  main.py  ss.cpp
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ nano f2.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ ls
+cns  jk  linux_tut  main.py  ss.cpp
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ nano f1.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ ls
+cns  f1.txt  jk  linux_tut  main.py  ss.cpp
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ touch f2.txt;mv f1.txt f2.txt
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ ls
+cns  f2.txt  jk  linux_tut  main.py  ss.cpp
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ cat f2.txt 
+hi hello
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ 
+
+
+
+
+

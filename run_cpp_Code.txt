@@ -1,0 +1,38 @@
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ ls
+cns  f1.cpp  f2.txt  jk  linux_tut  main.py  myop.exe  ss.cpp
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ rm f1.cpp myop.exe 
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ nano mycode.cpp
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ g++ mycode.cpp -o myop
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ ls
+cns  f2.txt  jk  linux_tut  main.py  mycode.cpp  myop  ss.cpp
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ ./myop 
+Hello, World!
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ ls -l
+total 52
+drwxrwxr-x 2 prajwalubu prajwalubu  4096 Oct  9  2021 cns
+-rw-rw-r-- 1 prajwalubu prajwalubu    49 Oct  5 12:09 f2.txt
+drwxrwxr-x 2 prajwalubu prajwalubu  4096 Dec 11  2020 jk
+drwxrwxr-x 4 prajwalubu prajwalubu  4096 Oct  5 01:08 linux_tut
+-rw-rw-r-- 1 prajwalubu prajwalubu  3448 Nov 11  2020 main.py
+-rw-rw-r-- 1 prajwalubu prajwalubu   102 Oct  5 12:35 mycode.cpp
+-rwxrwxr-x 1 prajwalubu prajwalubu 17168 Oct  5 12:36 myop
+-rw-rw-r-- 1 prajwalubu prajwalubu  4484 Dec 11  2020 ss.cpp
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ cat my
+mycode.cpp  myop        
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ cat mycode.cpp 
+#include <iostream>
+using namespace std;
+int main() 
+{
+    cout << "Hello, World!\n";
+    return 0;
+}
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ ^C
+prajwalubu@prajwalubu-VirtualBox:~/Desktop/file-prajwal$ 
+
+
+
+
+
+
+
